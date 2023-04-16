@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="bank.css">
+    <script src="bank.js"></script>
+</head>
+<body>
+    <div class="mon1">
+        <div class="money">
+            <h1>Transfer Money</h1>
+            <form>
+                <label for="full name">Full name :</label><br><br>
+                <input type="text" placeholder="Enter your Full name" id="transname" required><br><br>
+                <label for="id">Customet ID :</label><br><br>
+                <input type="number" placeholder="Enter your Customet ID" id="cid" required><br><br>
+                <label for="amo">Amount :</label><br><br>
+                <input type="number" placeholder="Enter Amount which you want to transfer" id="amount" required><br><br>
+                <button type="submit" id="but1" onclick="succses()">Transfer</button>
+                <button type="reset" id="but2">Clear</button><br><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

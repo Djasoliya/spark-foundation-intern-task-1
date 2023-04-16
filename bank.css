@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(236, 228, 200);
+}
+.nav{
+    background-color: black;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    position: sticky;
+}
+.nav ul li{
+    list-style: none;
+    padding: 15px;
+    margin: 0px 13px;
+}
+.nav ul li a{
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(177, 117, 28);
+}
+.nav ul li a:hover{
+    color:blanchedalmond;
+}
+.ima li img{
+    height: 30px;
+    width: 100px;
+}
+.nav21{
+    height: 870px;
+    background-image: url(card.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+.nav2 img{
+    height: 240px;
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+.nav2 h1, .nav2 h2{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav2 h1{
+    font-size: 32px;
+}
+.nav2 h2{
+    top: 440px;
+    font-size: 23px;
+    padding: 0px 160px 0px 0px;
+}
+.frm1{
+    padding: 20px 630px 20px;
+}
+.frm1 h1{
+    font-size: 55px;
+    text-align: center;
+    padding: 12px 0px 35px;
+}
+.frm1 form label{
+    padding: 15px 0px 15px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.frm1 form input, .frm1 textarea{
+    padding: 8px 20px 8px;
+    font-weight: bold;
+    width: 750px;
+    border-radius: 25px;
+    background-color: rgb(240, 237, 226);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.frm1 form button{
+    background-color: rgb(177, 117, 28);
+    padding: 18px 25px 18px;
+    margin: 18px 2px 18px;
+    font-size: 24px;
+    width: 350px;
+    border-radius: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.frm1 form button:hover{
+    background-color: blanchedalmond;
+}
+#but2{
+    margin: 18px 0px 18px 55px;
+}
+.tab table tr td center{
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tab table tr{
+   background-color: rgb(255, 255, 255);
+}
+.tab0{
+    width: 0px;
+}
+.tab1{
+    width: 1400px;
+    letter-spacing: 5px;
+}
+.tab2{
+    width: 400px;
+    letter-spacing: 2px;
+}
+.tab3{
+    width: 400px;
+    letter-spacing: 2px;
+}
+.tab{
+    padding: 40px 60px 40px 60px;
+    background-color: rgb(204, 231, 231);
+}
+.tab table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tab4{
+    background-color: rgb(191, 194, 193);
+    width: 300px;
+}
+.tab4 button{
+    background-color: rgb(191, 194, 193);
+    width: 100%;
+    padding: 23px;
+    font-size: 20px;
+
+}
+.tab4 button:hover{
+    background-color: rgb(117, 119, 118);
+    font-size: 25px;
+}
+.money h1{
+    text-align: center;
+    padding: 50px 0px 90px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.money form label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 0px 0px 380px;
+}
+.money form input{
+    margin: 10px 0px 70px 380px;
+    width: 60%;
+    padding: 10px 0px 10px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.money form button{
+    margin: 10px 100px 70px 550px;
+    width: 400px;
+    padding: 15px 30px 15px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(224, 216, 233);
+}
+.money form button:hover{
+    background-color: rgb(106, 103, 109);
+
+}
